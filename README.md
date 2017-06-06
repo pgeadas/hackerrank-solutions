@@ -1,4 +1,4 @@
-# hackerrank-solutions
+# hackerrank-solutions repository
 Solutions to some problems solved in HackerRank
-# Current solutions descriptions
+# Current problem's description:
 Tries: https://www.hackerrank.com/challenges/ctci-contacts
