@@ -1,4 +1,4 @@
-package com.pgeadas.hr.solutions;
+package com.pgeadas.hr.solutions.tries;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

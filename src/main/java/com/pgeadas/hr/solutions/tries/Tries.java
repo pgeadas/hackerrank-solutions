@@ -1,4 +1,4 @@
-package com.pgeadas.hr.solutions;
+package com.pgeadas.hr.solutions.tries;
 
 import java.util.HashMap;
 import java.util.Scanner;
