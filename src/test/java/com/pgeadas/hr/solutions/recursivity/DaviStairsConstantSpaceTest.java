@@ -6,21 +6,22 @@ import static org.junit.Assert.*;
 /**
  *
  * @author geadas
+ *
  */
-public class DaviStairsTest {
+public class DaviStairsConstantSpaceTest {
 
-    public DaviStairsTest() {
+    public DaviStairsConstantSpaceTest() {
     }
 
     /**
      * Testing with HackerRank example*
      */
     @Test
-    public void testDaviStairs1() {
+    public void testDaviStairsConstantSpace1() {
         System.out.println("main");
         Integer[] args = {3, 1, 3, 7};
-        String result = DaviStairs.testFromHere(args);
-        String expected = "1\n4\n44"; 
+        String result = DaviStairsConstantSpace.testFromHere(args);
+        String expected = "1\n4\n44";
         assertEquals(expected, result);
     }
 
@@ -28,23 +29,23 @@ public class DaviStairsTest {
      * Testing with custom example*
      */
     @Test
-    public void testDaviStairs2() {
+    public void testDaviStairsConstantSpace2() {
         System.out.println("main");
         Integer[] args = {3, 22, 28, 36};
-        String result = DaviStairs.testFromHere(args);
-        String expected = "410744\n15902591\n2082876103"; 
+        String result = DaviStairsConstantSpace.testFromHere(args);
+        String expected = "410744\n15902591\n2082876103";
         assertEquals(expected, result);
     }
-    
-        /**
+
+    /**
      * Testing with custom example*
      */
     @Test
-    public void testDaviStairs3() {
+    public void testDaviStairsConstantSpace3() {
         System.out.println("main");
         Integer[] args = {4, 4, 5, 6, 7};
-        String result = DaviStairs.testFromHere(args);
-        String expected = "7\n13\n24\n44"; 
+        String result = DaviStairsConstantSpace.testFromHere(args);
+        String expected = "7\n13\n24\n44";
         assertEquals(expected, result);
     }
 
